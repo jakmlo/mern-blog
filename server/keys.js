@@ -1,0 +1,10 @@
+module.exports = {
+  mgUser: process.env.MONGOUSER,
+  mgPassword: process.env.MONGOPASSWORD,
+  mgDatabase: process.env.MONGODATABASE,
+  mgPort: process.env.MONGOPORT,
+  ACCESS_TOKEN_SECRET:
+    "16dac470e0db0b7e99dacd1d1da939ea95a6df5f3f9e0d36068458139b7ea405e26dd73b3947aa6be0960551999bde0407d43f403970d61a44c91b0df2990591",
+  REFRESH_TOKEN_SECRET:
+    "8f1829032fe0fa2547c62334d8c37dee33896277aabd57b273f75f673b4d481dbac1840344f4dff8ed94b55a271ff195b1852a9460eb6d627cec3533e231685b",
+};

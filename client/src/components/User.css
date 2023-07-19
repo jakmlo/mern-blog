@@ -1,0 +1,12 @@
+.user__item {
+  height: 10rem;
+  border: 1px solid black;
+}
+
+.user__button--delete {
+  color: red;
+}
+
+.user__button--edit {
+  color: yellow;
+}

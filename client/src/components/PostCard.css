@@ -1,0 +1,30 @@
+.post-card {
+  display: flex;
+  flex-direction: column;
+  width: 40rem;
+  height: 10rem;
+  margin: auto;
+  padding: 0.5rem;
+}
+
+.post-card__title {
+  height: fit-content;
+  width: 100%;
+  margin: 0.5rem 0 0.5rem;
+  font-size: larger;
+}
+
+.post-card__content {
+  height: fit-content;
+  margin: 0 0 0.5rem;
+}
+
+.post-card__author {
+  height: fit-content;
+  font-size: smaller;
+}
+
+.post-card__date {
+  height: fit-content;
+  font-size: smaller;
+}
